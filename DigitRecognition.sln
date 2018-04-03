@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DigitRecognition", "DigitRecognition\DigitRecognition.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffe", "..\..\..\ai\caffe_windows_cpu\caffe\build\src\caffe\caffe.vcxproj", "{03090E03-2200-3264-BF06-EFB2F26B8AFD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffeproto", "..\..\..\ai\caffe_windows_cpu\caffe\build\src\caffe\caffeproto.vcxproj", "{6F582A7E-3594-3F1D-8939-BB2D890AC62A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{03090E03-2200-3264-BF06-EFB2F26B8AFD}.Debug|x64.ActiveCfg = Debug|x64
+		{03090E03-2200-3264-BF06-EFB2F26B8AFD}.Debug|x64.Build.0 = Debug|x64
+		{03090E03-2200-3264-BF06-EFB2F26B8AFD}.Release|x64.ActiveCfg = Release|x64
+		{03090E03-2200-3264-BF06-EFB2F26B8AFD}.Release|x64.Build.0 = Release|x64
+		{6F582A7E-3594-3F1D-8939-BB2D890AC62A}.Debug|x64.ActiveCfg = Debug|x64
+		{6F582A7E-3594-3F1D-8939-BB2D890AC62A}.Debug|x64.Build.0 = Debug|x64
+		{6F582A7E-3594-3F1D-8939-BB2D890AC62A}.Release|x64.ActiveCfg = Release|x64
+		{6F582A7E-3594-3F1D-8939-BB2D890AC62A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
